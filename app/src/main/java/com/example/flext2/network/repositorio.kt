@@ -4,7 +4,7 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.example.flext2.models.vehiculomodel
-import com.example.flext2.retro
+import com.example.flext2.utilis.RetrofitHelper
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -15,7 +15,7 @@ class repositorio {
     private var GetCamionesLiveData: MutableLiveData<vehiculomodel>? = null
 
     init {
-        val retrofit = retro.RetrofitHelper().getRetrofit()
+        val retrofit = RetrofitHelper().getRetrofit()
         ApiClientcamiones = retrofit.create(apie::class.java)
         GetCamionesLiveData = MutableLiveData()
     }

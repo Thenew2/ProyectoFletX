@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Flext2</string>
+    <string name="app_name">FletX</string>
+    <string name="not_trailer">sin trailer</string>
+
 </resources>

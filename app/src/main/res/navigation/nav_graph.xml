@@ -12,7 +12,7 @@
         tools:layout="@layout/activity_main" />
     <activity
         android:id="@+id/maps"
-        android:name="com.example.flext2.Mapps"
+        android:name="com.example.flext2.Map.Mapps"
         android:label="mapconfing"
         tools:layout="@layout/mapconfing" />
     <action
